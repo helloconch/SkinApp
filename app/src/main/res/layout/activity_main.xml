@@ -10,7 +10,17 @@
     tools:context="com.skin.main.MainActivity">
 
     <TextView
+        android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="Hello World!"
+        android:textColor="@color/textColor" />
+
+    <Button
+        android:id="@+id/changeTheme"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="c h a g e" />
 </RelativeLayout>

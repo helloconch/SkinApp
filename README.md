@@ -11,5 +11,8 @@ values-night<br/>
 drawable<br/>
 drawable-night<br/>
 
+修改styles中parent为Theme.AppCompat.DayNight<br/>
+
+自定义attrs<br/>
 
 #三:自定义 SkinnableActivity
