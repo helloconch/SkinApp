@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!--定义night资源文件-->
-    <color name="textColor">#F00</color>
+    <color name="textColor">#FFF</color>
+    <color name="main_bg_color">#000</color>
 </resources>

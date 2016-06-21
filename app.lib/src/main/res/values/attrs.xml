@@ -13,4 +13,8 @@
     <declare-styleable name="SkinnableButton">
         <attr name="android:textColor" />
     </declare-styleable>
+    <declare-styleable name="SkinnableImageView">
+        <attr name="android:background" />
+        <attr name="android:src" />
+    </declare-styleable>
 </resources>

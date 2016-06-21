@@ -46,7 +46,6 @@ public class SkinnableButton extends AppCompatButton implements Skinnable {
 
     @Override
     public void applyDayNight() {
-
         Context context = getContext();
         int key;
 

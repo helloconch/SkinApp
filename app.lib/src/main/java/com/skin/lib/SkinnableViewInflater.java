@@ -14,7 +14,6 @@ import android.support.v7.widget.AppCompatCheckBox;
 import android.support.v7.widget.AppCompatCheckedTextView;
 import android.support.v7.widget.AppCompatEditText;
 import android.support.v7.widget.AppCompatImageButton;
-import android.support.v7.widget.AppCompatImageView;
 import android.support.v7.widget.AppCompatMultiAutoCompleteTextView;
 import android.support.v7.widget.AppCompatRadioButton;
 import android.support.v7.widget.AppCompatRatingBar;
@@ -28,6 +27,7 @@ import android.view.View;
 
 import com.skin.lib.com.skin.lib.views.SkinnableButton;
 import com.skin.lib.com.skin.lib.views.SkinnableFrameLayout;
+import com.skin.lib.com.skin.lib.views.SkinnableImageView;
 import com.skin.lib.com.skin.lib.views.SkinnableLinearLayout;
 import com.skin.lib.com.skin.lib.views.SkinnableRelativeLayout;
 import com.skin.lib.com.skin.lib.views.SkinnableTextView;
@@ -76,14 +76,15 @@ public class SkinnableViewInflater {
         }
 
         View view = null;
-
+        Log.i("nnnnnnn",name);
         // We need to 'inject' our tint aware Views in place of the standard framework versions
         switch (name) {
             case "TextView":
                 view = new SkinnableTextView(context, attrs);
                 break;
             case "ImageView":
-                view = new AppCompatImageView(context, attrs);
+//                view = new AppCompatImageView(context, attrs);
+                view = new SkinnableImageView(context, attrs);
                 break;
             case "Button":
                 view = new SkinnableButton(context, attrs);

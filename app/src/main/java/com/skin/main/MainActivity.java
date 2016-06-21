@@ -21,6 +21,7 @@ public class MainActivity extends SkinAppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
+        getSupportFragmentManager().beginTransaction().add(R.id.container, new MainFragment()).commit();
     }
 
     /**
