@@ -16,6 +16,9 @@ drawable-night<br/>
 自定义attrs<br/>
 
 #三:自定义 SkinAppCompatActivity
-自定义 view extends AppCompatButton implements Skinnable<br/>
+
+SkinAppCompatActivity extends AppCompatActivity<br/>
 
 #四：自定义View
+
+view extends AppCompatButton implements Skinnable<br/>
